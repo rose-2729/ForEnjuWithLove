@@ -1,11 +1,17 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #ffe6f2;
+    color: #ff3366;
 }
 
 .container {
     margin-top: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
 }
 
 button {
@@ -27,17 +33,12 @@ button {
     color: black;
 }
 
-#photo {
-    margin-top: 20px;
-}
-
 #photo img {
-    width: 300px; /* Adjust size */
+    width: 300px;
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Hide the photo initially */
 .hidden {
     display: none;
 }
