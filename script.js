@@ -1,11 +1,9 @@
+document.getElementById("yesBtn").addEventListener("click", function() {
+    document.getElementById("response").innerHTML = "Yay! 💖 I love you too, Enju! 😘";
+});
 
-document.addEventListener("DOMContentLoaded", function () {
-    const yesButton = document.getElementById("yesButton");
-    const loveSong = document.getElementById("loveSong");
-    const photo = document.getElementById("photo");
-
-    yesButton.addEventListener("click", function () {
-        loveSong.play(); // Play the song
-        photo.classList.remove("hidden"); // Show the photo
-    });
+document.getElementById("noBtn").addEventListener("mouseover", function() {
+    this.style.position = "absolute";
+    this.style.left = Math.random() * window.innerWidth + "px";
+    this.style.top = Math.random() * window.innerHeight + "px";
 });
