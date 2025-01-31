@@ -1,58 +1,44 @@
 body {
-    font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: pink;
-    color: white;
-    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
 }
 
 .container {
-    background: #ff6699;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px #d1477a;
-    display: inline-block;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.letter {
-    font-size: 1.5rem;
-    font-style: italic;
-}
-
-.buttons {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 button {
-    font-size: 1.5rem;
+    font-size: 18px;
     padding: 10px 20px;
+    margin: 10px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
-    transition: 0.3s;
 }
 
-#yesBtn {
-    background-color: #ff3366;
+#yesButton {
+    background-color: #ff66b2;
     color: white;
 }
 
-#noBtn {
-    background-color: #ffffff;
-    color: #ff3366;
+#noButton {
+    background-color: #cccccc;
+    color: black;
 }
 
-button:hover {
-    transform: scale(1.1);
-}
-
-#response {
-    font-size: 1.5rem;
+#photo {
     margin-top: 20px;
 }
+
+#photo img {
+    width: 300px; /* Adjust size */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide the photo initially */
+.hidden {
+    display: none;
+}
+
